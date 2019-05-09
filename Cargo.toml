@@ -1,0 +1,11 @@
+[package]
+name = "blackrs"
+version = "0.1.0"
+authors = ["b401 <sec@i-401.xyz>"]
+edition = "2018"
+
+[dependencies]
+rusqlite = "0.18.0"
+time = "0.1.42"
+rocket = "0.4.0"
+state = { version="0.4.1", features = ["tls","const_fn"]}
